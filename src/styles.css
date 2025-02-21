@@ -1,0 +1,165 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa; /* Light Gray Background */
+  margin: 0;
+  padding: 0;
+}
+/* ===== HOME PAGE STYLES ===== */
+.home-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.home-container h1 {
+  color: #004085;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.home-container p.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.home-container .card {
+  background: white;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* ===== NAVBAR STYLES ===== */
+.navbar-custom {
+  background-color: #004085; /* Dark Blue */
+  padding: 12px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.navbar-custom .brand-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white !important;
+  transition: 0.3s;
+}
+
+.navbar-custom .brand-logo:hover {
+  color: #f8d210 !important; /* Gold Hover Effect */
+}
+
+.navbar-custom .nav-link-custom {
+  color: white !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 10px;
+  padding: 10px 15px;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.navbar-custom .nav-link-custom:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+/* Footer Styles */
+.footer-custom {
+  background-color: #004085; /* Dark Blue */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffd700; /* Gold Hover */
+}
+.about-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+.about-container h1 {
+  color: #004085;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.about-container p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Contact Page Styles */
+.contact-container {
+  margin-top: 50px;
+  padding: 40px 20px;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #004085; /* Dark Blue */
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contact-card {
+  background-color: #f8f9fa; /* Light Gray Background */
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card input,
+.contact-card textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-card button {
+  background-color: #004085; /* Dark Blue */
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.contact-card button:hover {
+  background-color: #002752; /* Darker Blue */
+}
+
+.contact-container p {
+  font-size: 16px;
+  color: #333;
+}
